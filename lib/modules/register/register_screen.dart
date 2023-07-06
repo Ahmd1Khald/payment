@@ -45,13 +45,6 @@ class RegisterScreen extends StatelessWidget {
                 padding: const EdgeInsets.all(18.0),
                 child: Column(
                   children: [
-                    Container(
-                      child: Image.asset(
-                        'assets/images/Delivery.png',
-                        width: MediaQuery.of(context).size.width,
-                        height: MediaQuery.of(context).size.height * 0.42,
-                      ),
-                    ),
                     Form(
                       key: formKey,
                       child: Column(

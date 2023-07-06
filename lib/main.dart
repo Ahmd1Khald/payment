@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 
+import 'core/network/dio.dart';
 import 'modules/register/register_screen.dart';
 
 void main() {
+  DioHelperPayment.init();
   runApp(const MyApp());
 }
 

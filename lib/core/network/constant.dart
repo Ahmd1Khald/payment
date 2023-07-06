@@ -7,7 +7,8 @@ class ApiContest {
   static const getPaymentRequest = '/acceptance/payment_keys';
   static const getRefCode = '/acceptance/payments/pay';
   static String visaUrl =
-      '$baseUrl/acceptance/iframes/424000?payment_token=$finalToken';
+      '$baseUrl/acceptance/iframes/769440?payment_token=$finalToken';
+  //769440 //424000
   static String paymentFirstToken = '';
 
   static String paymentOrderId = '';
